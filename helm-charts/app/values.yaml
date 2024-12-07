@@ -10,7 +10,7 @@ wp:
     pullPolicy: Always
   replicas: 3
   configmap:
-    WORDPRESS_DB_HOST: "wp-database-service.db.svc.cluster.local"
+    WORDPRESS_DB_HOST: "wp-database-service.default.svc.cluster.local"
     WORDPRESS_DB_NAME: "wordpress"
     WORDPRESS_DB_USER: "wordpress"
     APP_ENV: "dev"
