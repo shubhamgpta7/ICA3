@@ -17,3 +17,8 @@ db:
     type: ClusterIP
     port: 3306
     targetPort: 3306
+  secrets:
+    MARIADB_ROOT_PASSWORD: d29yZHByZXNzCg==
+    MYSQL_PASSWORD: d29yZHByZXNzCg==
+    MYSQL_ROOT_PASSWORD: d29yZHByZXNzCg==
+
